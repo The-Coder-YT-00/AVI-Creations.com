@@ -6,7 +6,7 @@
 }
 
 body {
-    background: linear-gradient ( 135 deg , #0F172A , #2563EB );
+    background: linear-gradient(135deg , #0F172A , #2563EB );
     color: #333; 
 }
 
@@ -39,6 +39,9 @@ nav ul li a {
     text-align: center;
     height: 70vh;
     padding: 20px;
+    background: radial-gradient(circle at 20% 30% , #7C3AED, transparent: 40%),
+                radial-gradient(circle at 20% 70% , #2563EB, transparent: 40% ),
+                #0F172A;
 }
 
 .hero h1 {
@@ -48,7 +51,7 @@ nav ul li a {
 }
 
 .btn {
-    background: #007bff;
+    background: linear-gradien(135deg, #2563EB, #7C3AED);    
     color: white;
     padding: 12px 24px;
     border: none;
@@ -60,5 +63,5 @@ nav ul li a {
 }
 
 .btn:hover {
-    background: #0056b3;
+    background: linear-gradient(135deg, #2563EB, #7C3AED);
 }
