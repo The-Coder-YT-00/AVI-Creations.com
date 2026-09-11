@@ -39,6 +39,7 @@ nav ul li a {
     text-align: center;
     height: 70vh;
     padding: 20px;
+    
     background: radial-gradient(circle at 20% 30% , #7C3AED, transparent: 40%),
                 radial-gradient(circle at 20% 70% , #2563EB, transparent: 40% ),
                 #0F172A;
