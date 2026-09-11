@@ -6,8 +6,8 @@
 }
 
 body {
-    background-color: #f8f9fa;
-    color: #333;
+    background: linear-gradient ( 135 deg , #0F172A , #2563EB );
+    color: #333; 
 }
 
 nav {
